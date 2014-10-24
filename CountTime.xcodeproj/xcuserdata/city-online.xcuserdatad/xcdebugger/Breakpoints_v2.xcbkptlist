@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CountTime/ViewController.m"
-            timestampString = "435829790.119792"
+            timestampString = "435843329.133044"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
             landmarkName = "-timerLabel:customTextToDisplayAtTime:"
             landmarkType = "5">
          </BreakpointContent>

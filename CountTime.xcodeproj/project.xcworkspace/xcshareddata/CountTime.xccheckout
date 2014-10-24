@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7E864244-F715-4C50-84E5-764A11FC00DA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CountTime</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C49DBFEFA6F788D855F3824E59484E6F231CD4A2</key>
+		<string>https://github.com/stonesun1314/CountTime.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CountTime.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C49DBFEFA6F788D855F3824E59484E6F231CD4A2</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/stonesun1314/CountTime.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C49DBFEFA6F788D855F3824E59484E6F231CD4A2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C49DBFEFA6F788D855F3824E59484E6F231CD4A2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CountTime</string>
+		</dict>
+	</array>
+</dict>
+</plist>
