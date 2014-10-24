@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C06620119FA2CA40019C83A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C06620019FA2CA40019C83A /* main.m */; };
+		0C06620419FA2CA40019C83A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C06620319FA2CA40019C83A /* AppDelegate.m */; };
+		0C06620719FA2CA40019C83A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C06620619FA2CA40019C83A /* ViewController.m */; };
+		0C06620A19FA2CA40019C83A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C06620819FA2CA40019C83A /* Main.storyboard */; };
+		0C06620C19FA2CA40019C83A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C06620B19FA2CA40019C83A /* Images.xcassets */; };
+		0C06620F19FA2CA40019C83A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C06620D19FA2CA40019C83A /* LaunchScreen.xib */; };
+		0C06621B19FA2CA40019C83A /* CountTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C06621A19FA2CA40019C83A /* CountTimeTests.m */; };
+		0C06622719FA30FB0019C83A /* MZTimerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C06622619FA30FB0019C83A /* MZTimerLabel.m */; };
+		0C06622C19FA31240019C83A /* 倒计时.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C06622819FA31240019C83A /* 倒计时.png */; };
+		0C06622D19FA31240019C83A /* 倒计时@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C06622919FA31240019C83A /* 倒计时@2x.png */; };
+		0C06622E19FA31240019C83A /* 倒计时单个模块.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C06622A19FA31240019C83A /* 倒计时单个模块.png */; };
+		0C06622F19FA31240019C83A /* 倒计时单个模块@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C06622B19FA31240019C83A /* 倒计时单个模块@2x.png */; };
+		0C06623319FA45A90019C83A /* CMSSCountTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C06623219FA45A90019C83A /* CMSSCountTimer.m */; };
+		0C06623919FA569D0019C83A /* CMSSTimerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C06623819FA569D0019C83A /* CMSSTimerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C06621519FA2CA40019C83A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C0661F319FA2CA40019C83A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C0661FA19FA2CA40019C83A;
+			remoteInfo = CountTime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C0661FB19FA2CA40019C83A /* CountTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C0661FF19FA2CA40019C83A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C06620019FA2CA40019C83A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C06620219FA2CA40019C83A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0C06620319FA2CA40019C83A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0C06620519FA2CA40019C83A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0C06620619FA2CA40019C83A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0C06620919FA2CA40019C83A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C06620B19FA2CA40019C83A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0C06620E19FA2CA40019C83A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0C06621419FA2CA40019C83A /* CountTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C06621919FA2CA40019C83A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C06621A19FA2CA40019C83A /* CountTimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountTimeTests.m; sourceTree = "<group>"; };
+		0C06622519FA30FB0019C83A /* MZTimerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZTimerLabel.h; sourceTree = "<group>"; };
+		0C06622619FA30FB0019C83A /* MZTimerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZTimerLabel.m; sourceTree = "<group>"; };
+		0C06622819FA31240019C83A /* 倒计时.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "倒计时.png"; sourceTree = "<group>"; };
+		0C06622919FA31240019C83A /* 倒计时@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "倒计时@2x.png"; sourceTree = "<group>"; };
+		0C06622A19FA31240019C83A /* 倒计时单个模块.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "倒计时单个模块.png"; sourceTree = "<group>"; };
+		0C06622B19FA31240019C83A /* 倒计时单个模块@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "倒计时单个模块@2x.png"; sourceTree = "<group>"; };
+		0C06623119FA45A90019C83A /* CMSSCountTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMSSCountTimer.h; sourceTree = "<group>"; };
+		0C06623219FA45A90019C83A /* CMSSCountTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMSSCountTimer.m; sourceTree = "<group>"; };
+		0C06623719FA569D0019C83A /* CMSSTimerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMSSTimerView.h; sourceTree = "<group>"; };
+		0C06623819FA569D0019C83A /* CMSSTimerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMSSTimerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C0661F819FA2CA40019C83A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C06621119FA2CA40019C83A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C0661F219FA2CA40019C83A = {
+			isa = PBXGroup;
+			children = (
+				0C0661FD19FA2CA40019C83A /* CountTime */,
+				0C06621719FA2CA40019C83A /* CountTimeTests */,
+				0C0661FC19FA2CA40019C83A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0C0661FC19FA2CA40019C83A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C0661FB19FA2CA40019C83A /* CountTime.app */,
+				0C06621419FA2CA40019C83A /* CountTimeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C0661FD19FA2CA40019C83A /* CountTime */ = {
+			isa = PBXGroup;
+			children = (
+				0C06623019FA458B0019C83A /* CMSSCountTimer */,
+				0C06622419FA30FB0019C83A /* MZTimerLabel */,
+				0C06620219FA2CA40019C83A /* AppDelegate.h */,
+				0C06620319FA2CA40019C83A /* AppDelegate.m */,
+				0C06620519FA2CA40019C83A /* ViewController.h */,
+				0C06620619FA2CA40019C83A /* ViewController.m */,
+				0C06620819FA2CA40019C83A /* Main.storyboard */,
+				0C06620B19FA2CA40019C83A /* Images.xcassets */,
+				0C06620D19FA2CA40019C83A /* LaunchScreen.xib */,
+				0C0661FE19FA2CA40019C83A /* Supporting Files */,
+			);
+			path = CountTime;
+			sourceTree = "<group>";
+		};
+		0C0661FE19FA2CA40019C83A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C06622819FA31240019C83A /* 倒计时.png */,
+				0C06622919FA31240019C83A /* 倒计时@2x.png */,
+				0C06622A19FA31240019C83A /* 倒计时单个模块.png */,
+				0C06622B19FA31240019C83A /* 倒计时单个模块@2x.png */,
+				0C0661FF19FA2CA40019C83A /* Info.plist */,
+				0C06620019FA2CA40019C83A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0C06621719FA2CA40019C83A /* CountTimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				0C06621A19FA2CA40019C83A /* CountTimeTests.m */,
+				0C06621819FA2CA40019C83A /* Supporting Files */,
+			);
+			path = CountTimeTests;
+			sourceTree = "<group>";
+		};
+		0C06621819FA2CA40019C83A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C06621919FA2CA40019C83A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0C06622419FA30FB0019C83A /* MZTimerLabel */ = {
+			isa = PBXGroup;
+			children = (
+				0C06622519FA30FB0019C83A /* MZTimerLabel.h */,
+				0C06622619FA30FB0019C83A /* MZTimerLabel.m */,
+			);
+			path = MZTimerLabel;
+			sourceTree = SOURCE_ROOT;
+		};
+		0C06623019FA458B0019C83A /* CMSSCountTimer */ = {
+			isa = PBXGroup;
+			children = (
+				0C06623119FA45A90019C83A /* CMSSCountTimer.h */,
+				0C06623219FA45A90019C83A /* CMSSCountTimer.m */,
+				0C06623719FA569D0019C83A /* CMSSTimerView.h */,
+				0C06623819FA569D0019C83A /* CMSSTimerView.m */,
+			);
+			path = CMSSCountTimer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C0661FA19FA2CA40019C83A /* CountTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C06621E19FA2CA40019C83A /* Build configuration list for PBXNativeTarget "CountTime" */;
+			buildPhases = (
+				0C0661F719FA2CA40019C83A /* Sources */,
+				0C0661F819FA2CA40019C83A /* Frameworks */,
+				0C0661F919FA2CA40019C83A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CountTime;
+			productName = CountTime;
+			productReference = 0C0661FB19FA2CA40019C83A /* CountTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0C06621319FA2CA40019C83A /* CountTimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C06622119FA2CA40019C83A /* Build configuration list for PBXNativeTarget "CountTimeTests" */;
+			buildPhases = (
+				0C06621019FA2CA40019C83A /* Sources */,
+				0C06621119FA2CA40019C83A /* Frameworks */,
+				0C06621219FA2CA40019C83A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C06621619FA2CA40019C83A /* PBXTargetDependency */,
+			);
+			name = CountTimeTests;
+			productName = CountTimeTests;
+			productReference = 0C06621419FA2CA40019C83A /* CountTimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C0661F319FA2CA40019C83A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "City-Online";
+				TargetAttributes = {
+					0C0661FA19FA2CA40019C83A = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					0C06621319FA2CA40019C83A = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 0C0661FA19FA2CA40019C83A;
+					};
+				};
+			};
+			buildConfigurationList = 0C0661F619FA2CA40019C83A /* Build configuration list for PBXProject "CountTime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C0661F219FA2CA40019C83A;
+			productRefGroup = 0C0661FC19FA2CA40019C83A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C0661FA19FA2CA40019C83A /* CountTime */,
+				0C06621319FA2CA40019C83A /* CountTimeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C0661F919FA2CA40019C83A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C06622F19FA31240019C83A /* 倒计时单个模块@2x.png in Resources */,
+				0C06622E19FA31240019C83A /* 倒计时单个模块.png in Resources */,
+				0C06620A19FA2CA40019C83A /* Main.storyboard in Resources */,
+				0C06622D19FA31240019C83A /* 倒计时@2x.png in Resources */,
+				0C06620F19FA2CA40019C83A /* LaunchScreen.xib in Resources */,
+				0C06620C19FA2CA40019C83A /* Images.xcassets in Resources */,
+				0C06622C19FA31240019C83A /* 倒计时.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C06621219FA2CA40019C83A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C0661F719FA2CA40019C83A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C06620719FA2CA40019C83A /* ViewController.m in Sources */,
+				0C06622719FA30FB0019C83A /* MZTimerLabel.m in Sources */,
+				0C06620419FA2CA40019C83A /* AppDelegate.m in Sources */,
+				0C06623319FA45A90019C83A /* CMSSCountTimer.m in Sources */,
+				0C06623919FA569D0019C83A /* CMSSTimerView.m in Sources */,
+				0C06620119FA2CA40019C83A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C06621019FA2CA40019C83A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C06621B19FA2CA40019C83A /* CountTimeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C06621619FA2CA40019C83A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C0661FA19FA2CA40019C83A /* CountTime */;
+			targetProxy = 0C06621519FA2CA40019C83A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0C06620819FA2CA40019C83A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C06620919FA2CA40019C83A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0C06620D19FA2CA40019C83A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C06620E19FA2CA40019C83A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0C06621C19FA2CA40019C83A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0C06621D19FA2CA40019C83A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C06621F19FA2CA40019C83A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CountTime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0C06622019FA2CA40019C83A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CountTime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0C06622219FA2CA40019C83A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CountTimeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CountTime.app/CountTime";
+			};
+			name = Debug;
+		};
+		0C06622319FA2CA40019C83A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CountTimeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CountTime.app/CountTime";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C0661F619FA2CA40019C83A /* Build configuration list for PBXProject "CountTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C06621C19FA2CA40019C83A /* Debug */,
+				0C06621D19FA2CA40019C83A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C06621E19FA2CA40019C83A /* Build configuration list for PBXNativeTarget "CountTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C06621F19FA2CA40019C83A /* Debug */,
+				0C06622019FA2CA40019C83A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C06622119FA2CA40019C83A /* Build configuration list for PBXNativeTarget "CountTimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C06622219FA2CA40019C83A /* Debug */,
+				0C06622319FA2CA40019C83A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C0661F319FA2CA40019C83A /* Project object */;
+}
