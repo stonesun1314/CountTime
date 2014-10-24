@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 
 typedef void (^CMSSCountEndBlock)(NSTimeInterval time);
+typedef void (^CMSSCountingBlock)(NSInteger hour,NSInteger minute,NSInteger second);
 
 @protocol CMSSCountTimerDelegate <NSObject>
 
@@ -27,6 +28,9 @@ typedef void (^CMSSCountEndBlock)(NSTimeInterval time);
 -(void)start;
 #if NS_BLOCKS_AVAILABLE
 -(void)startWithEndingBlock:(CMSSCountEndBlock)endBlock; //use it if you are not going to use delegate
+
+-(void)startWithCountingBlock:(CMSSCountingBlock)countingBlock;
+
 #endif
 -(void)pause;
 -(void)reset;

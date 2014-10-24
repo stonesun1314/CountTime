@@ -9,10 +9,14 @@
 #import "ViewController.h"
 #import "MZTimerLabel.h"
 #import "CMSSTimerView.h"
+#import "CMSSCountTimer.h"
 
 @interface ViewController ()<MZTimerLabelDelegate>{
     MZTimerLabel *timerExample9;
+    CMSSTimerView *timerView;
 }
+
+
 
 @end
 
@@ -41,8 +45,19 @@
     timerExample9.delegate = self;
     [timerExample9 start];
     
-    CMSSTimerView *timerView = [[CMSSTimerView alloc] initWithFrame:CGRectMake(100, 200, 150, 30)];
+    
+    timerView = [[CMSSTimerView alloc] initWithFrame:CGRectMake(100, 200, 150, 30)];
     [self.view addSubview:timerView];
+    
+    CMSSCountTimer *timer = [[CMSSCountTimer alloc] init];
+    [timer setCountDownTime:(60*60*1+10)];
+    [timer startWithCountingBlock:^(NSInteger hour, NSInteger minute, NSInteger second) {
+        timerView.hours = hour;
+        timerView.minutes = minute;
+        timerView.seconds = second;
+    }];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

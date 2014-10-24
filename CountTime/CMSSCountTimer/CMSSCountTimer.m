@@ -15,6 +15,7 @@
 }
 
 @property (nonatomic, strong) CMSSCountEndBlock endBlock;
+@property (nonatomic, strong) CMSSCountingBlock countingBlock;
 
 @end
 
@@ -65,6 +66,12 @@
             dispatch_async(dispatch_get_main_queue(), ^{
                 //设置界面的按钮显示 根据自己需求设置
                 NSLog(@"____%@",strTime);
+                if (self.countingBlock) {
+                    self.countingBlock(hours,minute,second);
+                }
+                if (self.endBlock) {
+                    
+                }
                 
             });
             timeUserValue--;
@@ -79,6 +86,12 @@
     [self start];
     self.endBlock = endBlock;
 }
+
+-(void)startWithCountingBlock:(CMSSCountingBlock)countingBlock{
+    [self start];
+    self.countingBlock = countingBlock;
+}
+
 #endif
 -(void)pause{
     dispatch_suspend(_timer);

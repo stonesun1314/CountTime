@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+typedef enum{
+    CMSSTypeStopWatch,
+    CMSSTypeTimer
+}CMSSTimeType;
+
 @interface CMSSTimerView : UIView
 
 @property (nonatomic) NSInteger hours;
@@ -15,7 +20,6 @@
 @property (nonatomic) NSInteger minutes;
 
 @property (nonatomic) NSInteger seconds;
-
 
 
 @end
